@@ -15,11 +15,11 @@ Each folder under `projects/` is a self-contained project with its own write-up:
 
 | # | Project | What it demonstrates | Stack |
 |---|---|---|---|
-| 1 | [NullByte: 1 — SIEM & Boot2Root Pentest](projects/01-nullbyte-siem-pentest) | Full exploitation chain: recon → steganography → brute force → SQLi → hash cracking → root privilege escalation | Nmap, Nikto, Gobuster, Hydra, sqlmap, SUID/PATH hijacking |
-| 2 | [MobSF — Mobile Application Security Testing](projects/02-mobsf-mobile-testing) | Static/dynamic analysis of Android APKs — insecure storage, hardcoded secrets, permission misuse | MobSF |
+| 1 | [nullbyte-pentest](projects/01-nullbyte-siem-pentest) | Full exploitation chain: recon → steganography → brute force → SQLi → hash cracking → root privilege escalation | Nmap, Nikto, Gobuster, Hydra, sqlmap, SUID/PATH hijacking |
+| 2 | [dvwa-security-testing](projects/02-mobsf-mobile-testing) | Static/dynamic analysis of Android APKs — insecure storage, hardcoded secrets, permission misuse | MobSF |
 | 3 | [OWASP Web App Pentesting — bWAPP, DVWA, Mutillidae](projects/03-owasp-web-pentest) | Vulnerability assessment across intentionally vulnerable apps — SQLi, XSS, broken authentication | bWAPP, DVWA, Mutillidae |
-| 4 | [TryHackMe — Guided Web Security Labs](projects/04-tryhackme-labs) | Structured, mentor-guided labs on OWASP Top 10 exploitation techniques | TryHackMe |
-| 5 | [WordPress Penetration Testing](projects/05-wordpress-pentest) | End-to-end exploitation: payload delivery, reverse shell via Netcat, credential extraction, hash cracking with Hashcat | Netcat, Hashcat, Python HTTP server |
+| 4 | [tryhackme-web-security-labs](projects/04-tryhackme-labs) | Structured, mentor-guided labs on OWASP Top 10 exploitation techniques | TryHackMe |
+| 5 | [wordpress-vulnerability-testing](projects/05-wordpress-pentest) | End-to-end exploitation: payload delivery, reverse shell via Netcat, credential extraction, hash cracking with Hashcat | Netcat, Hashcat, Python HTTP server |
 
 *(SIEM NULLBYTE — the custom SIEM tool project — will be added here as a separate entry once documented.)*
 
